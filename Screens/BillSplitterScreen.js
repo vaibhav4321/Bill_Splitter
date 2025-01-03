@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { ScrollView, Text, View, TouchableOpacity, StyleSheet, Animated } from 'react-native';
-import InputField from '../Components/InputField';
-import ParticipantInput from '../Components/ParticipantInput';
-import PaymentHistory from '../Components/PaymentHistory';
-import ModalPopup from '../Components/ModalPopup';
+import InputField from '../components/InputField';
+import ParticipantInput from '../components/ParticipantInput';
+import PaymentHistory from '../components/PaymentHistory';
+import ModalPopup from '../components/ModalPopup';
 
 export default function BillSplitterScreen() {
   const [billAmount, setBillAmount] = useState('');
