@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ScrollView, Text, View, TouchableOpacity, StyleSheet, Animated } from 'react-native';
-import InputField from '../components/InputField';
+import InputField from '../Components/InputField';
 import ParticipantInput from '../Components/ParticipantInput';
 import PaymentHistory from '../Components/PaymentHistory';
 import ModalPopup from '../Components/ModalPopup';
