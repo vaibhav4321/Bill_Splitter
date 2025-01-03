@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import BillSplitterScreen from './screens/BillSplitterScreen';
+import BillSplitterScreen from './Screens/BillSplitterScreen';
 
 export default function App() {
   return (
